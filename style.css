@@ -9,7 +9,7 @@ body {
 
 .header {
   background-color: #f1d848;
-  color: rgb(29, 29, 119);
+  color: #1d1d77;
   padding: 20px;
   margin-bottom: 20px;
   display: flex;
@@ -51,7 +51,7 @@ body {
 }
 
 .item {
-  border: 2px solid rgb(186, 186, 236);
+  border: 2px solid #babaec;
   border-radius: 5px;
   box-sizing: border-box;
   display: flex;
@@ -76,12 +76,13 @@ body {
 }
 
 .item .item__add {
-  background-color: #bda20e;
+  background-color: #f1d848;
   border: 0;
   cursor: pointer;
   margin: 0;
   padding: 5px;
-  color: white;
+  color: #1d1d77;
+  outline-color: #babaec;
 }
 
 .cart {
